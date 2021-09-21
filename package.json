@@ -6,7 +6,10 @@
     "name": "Jin Lee",
     "email": "wls4370@gmail.com"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cluper-LEE/myblog-cilent-vue3.git"
+  },
   "license": "ISC",
   "scripts": {
     "dev": "vite",
