@@ -6,12 +6,11 @@ export default {
 
 <script setup>
 import NavBar from "/@components/NavBar.vue";
-import Profile from "/@components/Profile.vue";
 </script>
 
 <template>
   <nav-bar></nav-bar>
-  <profile></profile>
+  <router-view></router-view>
 </template>
 
 <style>

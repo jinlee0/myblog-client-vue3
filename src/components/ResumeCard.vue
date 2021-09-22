@@ -17,8 +17,11 @@ const { top, resume, show } = toRefs(props);
 <template>
   <div class="col-sm py-2" v-if="show">
     <div
-      class="card"
-      :class="{ 'border-primary bg-primary text-light': top, shadow: top }"
+      class="card shadow"
+      :class="{
+        'border-primary bg-primary text-light ': top,
+        shadow: top,
+      }"
     >
       <div class="card-body">
         <h4 class="card-title" :class="[top ? 'text-light' : 'text-muted']">

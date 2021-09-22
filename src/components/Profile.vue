@@ -43,7 +43,7 @@ const user_data = computed(() => store.getters["about_me/user_data"]);
         </div>
         <h1>
           <span
-            class="badge badge-pill border"
+            class="badge rounded-pill border"
             :class="[!index ? 'bg-primary text-light' : 'bg-light text-dark']"
             >{{ new Date(d.date).getFullYear() }}</span
           >
